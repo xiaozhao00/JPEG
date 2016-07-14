@@ -17,4 +17,4 @@ Algorithm constraints:
 - The input images have to be in grayscale.
 - The size of the image in both rows and columns has to be multiple of 8.
 
-If these two conditions are not met, the behavior of the algorithm will not probably be the one expected.
+If these two conditions are not met, the behavior of the algorithm will not probably be the expected.
