@@ -33,6 +33,18 @@ G =	 [16 11 10 16 24 40 51 61;
       24 35 55 64 81 104 113 92;
       49 64 78 87 103 121 120 101;
       72 92 95 98 112 100 103 99];
+      
+% improve the performance with the following matrix G1
+% IAPIDCBT
+G1 = [  4 6 7 8 10 13 18 31;
+       6 9 10 12 15 20 28 48;
+       7 10 12 14 18 23 32 55;
+       8 12 14 17 21 27 38 65;
+       10 15 18 21 26 33 47 80;
+       13 20 23 27 33 43 61 103;
+       18 28 32 38 47 61 86 146;
+       31 48 55 65 80 103 146 250
+    ];
 
 G = G.*alpha;
 % Before going block to block through the matrix, we have to initialize
